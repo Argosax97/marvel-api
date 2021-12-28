@@ -1,0 +1,16 @@
+.events-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: blueviolet;
+    padding: 15px;
+}
+.events-container .events-item{
+    width: 250px;
+
+}
+.pagination{
+    background-color: violet;
+    text-align: center;
+    font-size: x-large;
+}

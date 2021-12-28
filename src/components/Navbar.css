@@ -1,0 +1,29 @@
+header {
+  width: 100%;
+  border: solid;
+  background: rgb(155, 22, 12);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+header nav {
+  width: 60%; 
+  background: red;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 5px;
+}
+.link{
+  font-size: larger;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+  border-bottom:1px solid;
+}
