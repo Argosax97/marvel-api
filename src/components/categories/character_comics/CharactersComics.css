@@ -1,0 +1,17 @@
+.characters-comics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: blueviolet;
+}
+.character-comics{
+    width: 250px;
+    margin: 1rem;
+}
+.character-comics-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: brown;
+    padding: .2rem;
+}
