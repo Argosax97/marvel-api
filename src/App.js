@@ -8,14 +8,16 @@ import Characters from "./components/categories/Characters";
 import Comics from "./components/categories/Comics";
 import Creators from "./components/categories/Creators";
 import Events from "./components/categories/Events";
+import CharacterComics from "./components/categories/character_comics/CharactersComics";
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/characters" element={<Characters />} />
+        <Route path="/" exact element={<Home />} />
+        <Route path="/characters"exact element={<Characters />} />
+        <Route path="/characters/:id" element={<CharacterComics />} />
         <Route path="/comics" element={<Comics />} />
         <Route path="/creators" element={<Creators />} />
         <Route path="/events" element={<Events />} />

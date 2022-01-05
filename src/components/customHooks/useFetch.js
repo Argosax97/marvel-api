@@ -17,7 +17,7 @@ const useFetch = (api) => {
   useEffect(() => {
     getMovies();
   }, [api]);
-  return { loading, datas};
+  return { loading, datas };
 };
 
 export default useFetch;
