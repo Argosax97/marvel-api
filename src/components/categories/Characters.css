@@ -1,13 +1,30 @@
-
-.characters-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: blueviolet;
-    padding: 15px;
+.characters_link {
+  text-decoration: none;
+  color: lavender;
 }
-.pagination{
-    background-color: violet;
-    text-align: center;
-    font-size: x-large;
+.characters_link:active {
+  color: lavenderblush;
+}
+.characters_link:hover {
+  color: lightcyan;
+}
+.characters-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(80, 125, 161);
+  padding: 15px;
+}
+.characters {
+  width: 250px;
+}
+.characters img{
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+}
+.pagination {
+  background-color: violet;
+  text-align: center;
+  font-size: x-large;
 }

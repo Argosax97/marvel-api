@@ -13,14 +13,14 @@ const Characters = () => {
       <section className="characters-container">
         {datas.map((data) => {
           return (
-            <div key={data.id}>
+            <div key={data.id} className="characters">
               <img
                 src={data.thumbnail.path + ".jpg"}
                 alt={data.name}
-                width="250px"
+                width="100%"
               />
 
-              <Link to={`/characters/${data.id}`}>
+              <Link to={`/characters/${data.id}`} className="characters_link">
                 <div className="character-name">
                   <h2>{data.name}</h2>
                 </div>

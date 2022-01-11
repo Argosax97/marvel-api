@@ -1,13 +1,22 @@
 import React from "react";
-import Characters from "./categories/Characters";
 import { Link } from "react-router-dom";
-import "./Navbar.css"
+import "./Navbar.css";
+import logo from "../images/Marvel Logo.png";
 
 const Navbar = () => {
   return (
     <header>
-      <div className="logo">
-        <h1>Logo</h1>
+      <div className="logo_container">
+        <h3 className="user_name">Alexander H.</h3>
+        <Link to="/">
+          <div className="logo">
+            <img src={logo} alt="Logo" />
+          </div>
+        </Link>
+
+        <Link to="/login" className="link">
+          <div>Log In</div>
+        </Link>
       </div>
       <nav>
         <ul>
