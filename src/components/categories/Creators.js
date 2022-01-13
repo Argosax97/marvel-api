@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import useFetch from "../customHooks/useFetch";
 import "./Creators.css";
 
@@ -16,11 +17,13 @@ const Creators = () => {
               <img
                 src={data.thumbnail.path + ".jpg"}
                 alt={data.title}
-                width='250px'
+                width="250px"
               />
 
-              <div className="character-name">
-                <h2>{data.fullName}</h2>
+              <div className="item-name">
+                <Link to={`/creators/${data.name}`} className="item-link">
+                  <h2>{data.fullName}</h2>
+                </Link>
               </div>
             </div>
           );

@@ -19,11 +19,12 @@ const Events = () => {
                 alt={data.title}
                 width="250px"
               />
-              <Link to={`/events/${data.name}`}>
-                <div className="character-name">
+
+              <div className="item-name">
+                <Link to={`/events/${data.name}`} className="item-link">
                   <h2>{data.title}</h2>
-                </div>
-              </Link>
+                </Link>
+              </div>
             </div>
           );
         })}

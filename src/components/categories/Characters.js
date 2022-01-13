@@ -14,22 +14,18 @@ const Characters = () => {
         {datas.map((data) => {
           return (
             <div key={data.id} className="characters">
-              <img
-                src={data.thumbnail.path + ".jpg"}
-                alt={data.name}
-                width="100%"
-              />
+              <img src={data.thumbnail.path + ".jpg"} alt={data.name} />
 
-              <Link to={`/characters/${data.id}`} className="characters_link">
-                <div className="character-name">
+              <div className="item-name">
+                <Link to={`/characters/${data.id}`} className="item-link">
                   <h2>{data.name}</h2>
-                </div>
-              </Link>
+                </Link>
+              </div>
             </div>
           );
         })}
+        <div className="pagination"> pagination</div>
       </section>
-      <div className="pagination"> pagination</div>
     </>
   );
 };

@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+.ring_1 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 0.25s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -10px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+}
+
+.ring_2 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 0.5s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -20px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+
+.ring_3 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 0.75s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -30px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+}
+
+.ring_4 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 1s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -40px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+}
+
+.ring_5 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 1.25s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -50px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.ring_6 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 1.5s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -60px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+}
+
+.ring_7 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 1.75s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -70px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 140px;
+  height: 140px;
+}
+
+.ring_8 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 2s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -80px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 160px;
+  height: 160px;
+}
+
+.ring_9 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 2.25s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -90px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 180px;
+  height: 180px;
+}
+
+.ring_10 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 2.5s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -100px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+.ring_11 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 2.75s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -110px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 220px;
+  height: 220px;
+}
+
+.ring_12 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 3s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -120px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 240px;
+  height: 240px;
+}
+
+.ring_13 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 3.25s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -130px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 260px;
+  height: 260px;
+}
+
+.ring_14 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 3.5s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -140px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 280px;
+  height: 280px;
+}
+
+.ring_15 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 3.75s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -150px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+}
+
+.ring_16 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 4s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -160px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 320px;
+  height: 320px;
+}
+
+.ring_17 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 4.25s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -170px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 340px;
+  height: 340px;
+}
+
+.ring_18 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 4.5s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -180px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 360px;
+  height: 360px;
+}
+
+.ring_19 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 4.75s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -190px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 380px;
+  height: 380px;
+}
+
+.ring_20 {
+  animation: spin infinite 1.5s linear, rainbow infinite 9s linear;
+  animation-delay: 5s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -200px;
+  border-top: 5px solid transparent;
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+}
+
+@keyframes rainbow {
+  14.2857142857% {
+    border-color: red;
+  }
+  28.5714285714% {
+    border-color: orange;
+  }
+  42.8571428571% {
+    border-color: yellow;
+  }
+  57.1428571429% {
+    border-color: green;
+  }
+  71.4285714286% {
+    border-color: blue;
+  }
+  85.7142857143% {
+    border-color: indigo;
+  }
+  100% {
+    border-color: violet;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes rainbow {
+  14.2857142857% {
+    border-color: red;
+  }
+  28.5714285714% {
+    border-color: orange;
+  }
+  42.8571428571% {
+    border-color: yellow;
+  }
+  57.1428571429% {
+    border-color: green;
+  }
+  71.4285714286% {
+    border-color: blue;
+  }
+  85.7142857143% {
+    border-color: indigo;
+  }
+  100% {
+    border-color: violet;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.animation {
+  position: relative;
+  background-color: #242424;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+.error-message {
+  background-color: #242424;
+  color: red;
+font-family: 'Marvel', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  text-align: center;
+  text-shadow: 0px 2px 2px #eeeeeeb2;
+}
