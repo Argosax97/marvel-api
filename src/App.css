@@ -11,13 +11,3 @@
   font-size: x-large;
 }
 
-.item-link {
-  text-decoration: none;
-  color: lavender;
-}
-.item-link:active {
-  color: lavenderblush;
-}
-.item-link:hover {
-  color: rgb(101, 233, 233);
-}
