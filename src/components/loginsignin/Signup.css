@@ -1,0 +1,50 @@
+
+input {
+  border-radius: 5px;
+}
+
+.signup_pagae {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(92, 92, 122, 0.356);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.sign_container {
+  background-color: indigo;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.signup_title {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+  margin-top: 50px;
+}
+
+.random {
+  color: #28beec;
+  text-decoration: none;
+}
+
+.random:hover {
+  color: #3588f5;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#togglePassword {
+  margin-left: -30px;
+  cursor: pointer;
+}

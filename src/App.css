@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #3b3c42;
+
+}
 .pagination {
   visibility: hidden;
   width: 100%;

@@ -9,6 +9,7 @@ import Comics from "./components/categories/Comics";
 import Creators from "./components/categories/Creators";
 import Events from "./components/categories/Events";
 import CharacterComics from "./components/categories/character_comics/CharactersComics";
+import Login from "./components/loginsignin/Login";
 
 const App = () => {
   return (
@@ -16,11 +17,12 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" exact element={<Home />} />
-        <Route path="/characters"exact element={<Characters />} />
+        <Route path="/characters" exact element={<Characters />} />
         <Route path="/characters/:id" element={<CharacterComics />} />
         <Route path="/comics" element={<Comics />} />
         <Route path="/creators" element={<Creators />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/login" element={<Login />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </>

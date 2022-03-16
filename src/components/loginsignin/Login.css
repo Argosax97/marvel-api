@@ -1,0 +1,126 @@
+.sign-in-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+}
+
+.sign-in-title {
+  background-color: #13163b;
+  font-family: "Times New Roman", Times, serif;
+  width: 350px;
+  font-size: 1rem;
+  margin: 1rem auto;
+  padding: .7rem 1rem;
+  border-radius: 5px;
+  color: #dddddd;
+}
+
+.forms form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #ffff;
+  font-family: sans-serif;
+  margin: .5rem;
+  padding: 1rem;
+  outline: none;
+}
+.email-form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1.5rem auto;
+}
+.forms input {
+  width: 350px;
+  height: 50px;
+  margin: .5rem auto;
+  font-size: 1.2em;
+  text-indent: 15px;
+  background-color: #0f112e;
+  border: none;
+  color: white;
+  box-shadow: 0 0 10px 2px #24274b;
+}
+.forms input:active{
+  outline: none;
+  border: none;
+}
+.forms input:focus {
+  outline: 1px solid #2f3369;
+  transition: 0.3s;
+}
+
+.password_text {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.password_text #forgot {
+  color: #ed1d24;
+  text-decoration: none;
+}
+
+.password_text #forgot:hover {
+  color: #e6787a;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sign-in-btn {
+  width: 350px;
+  background-color: #ed1d24;
+  border-radius: 5px;
+  padding: .75rem .5rem;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sign-in-btn:hover {
+  color: #ed1d24;
+  background-color: #13163b;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 1.5rem auto;
+  padding: 1rem ;
+  background-color: #26295c;
+}
+
+.footer span {
+  font-size: 1.5em;
+  color: rgba(245, 245, 245, 0.719);
+}
+
+.sign_up {
+  background-color: #f03b7a;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-left: 10px;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sign_up:hover {
+  color: #fd6c9f;
+  background-color: #0f112e;
+  cursor: pointer;
+  transition: 0.3s;
+}
